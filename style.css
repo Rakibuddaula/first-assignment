@@ -1,9 +1,21 @@
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    
+}
+.navbar{
+    background-color: gray;
+    padding: 5px;
+    text-align: center;
+}
+.navbar li{
+    display: inline;
+    padding: 80px;
+   
+    
 }
 .container{
     display: flex;
+    
 }
 .first-part{
     padding: 80px;
@@ -23,12 +35,50 @@ body{
 .second-part{
     width: 50%;
     padding: 80px;
+    
 }
 .second-part img{
     width: 40%;
+    height: 124%;
+    
 }
 #background-image{
     background-image: url(Background/7.png);
     background-repeat: no-repeat;
-    width:100%
+    width:100%;
+    
+}
+.third-part{
+  width: 33%;
+  box-shadow: 10px 10px 40px gray;
+  margin: 60px
+  
+
+}
+.third-part img{
+    width: 80%;
+    padding: 10px;
+    margin: 20px;
+    
+}
+.container p{
+    text-align: Left;
+    padding: 30px;
+}
+.container h3{
+    text-align: left;
+    padding: 30px;
+    font-weight: 900;
+}
+#alignment{
+    text-align: center;
+}
+footer{
+    background-color:rgb(15, 15, 15);
+    text-align: center;
+    padding: 60px;
+    color: white;
+}
+#gray{
+    color: gray;
 }
